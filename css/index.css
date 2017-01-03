@@ -1,0 +1,66 @@
+body {
+  margin: 5;
+  padding: 60px;
+  font-family: sans-serif;
+}
+
+header {
+  postion: fixed;
+  top:auto;
+  left:auto;
+  right:auto;
+  padding:10px;
+}
+
+h1 {
+  font-weight: bold;
+  color: green;
+}
+.rl-logo {
+  display: inline-block;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+.top-nav{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.listing {
+  color: purple;
+  margin-bottom: 15px;
+}
+
+.listing-date {
+  color: pink;
+}
+
+.listing-title{
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.listing-location {
+  color: green;
+}
+
+.search input {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 3px 5px;
+  width: 300;
+}
+
+.search button {
+  font-size: 20px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
